@@ -1,0 +1,97 @@
+.dvc-calendar {
+	position:relative;
+	cursor: pointer;
+}
+
+.dvc-calendar-head
+{
+	color:#fff;
+}
+ 
+.dvc-calendar-head .dvc-calendar-head-content{
+	background: url('images/daybox.png') no-repeat;	
+	background-position: 50% 45%;	
+}
+
+.dvc-calendar-focus-week{
+	background: url('images/month_Ybox_bg.png') repeat-x;
+	background-position-y:0%;
+}
+
+.dvc-calendar-body td {
+	text-align:center;
+	font-weight: bold;
+	font-size: 16px;
+	border: 0px solid #ffffff;
+	background: transparent;	
+}
+
+.dvc-calendar-body td.dvc-calendar-x {	
+	background-image: 'none';
+	color: gray;
+}
+
+.dvc-calendar-body td.dvc-calendar-today {
+	background: url('images/calendar_todaybox.png') no-repeat;	
+	background-position: 50% 0%;	
+}
+
+.dvc-calendar-body td.dvc-calendar-today-hide {
+	background-image: none;		
+}
+
+.dvc-calendar-body td.dvc-calendar-focus {
+	background: url('images/calendar_dayoverbox.png') no-repeat;
+	background-position: 50% 0%;		
+}
+
+.dvc-calendar-body td.dvc-calendar-focus-hide {
+	background-image: none;		
+}
+
+.dvc-calendar-body tr{
+	width:100%; height:17%;
+}
+
+.dvc-calendar-holiday {
+	color: red;
+}
+
+.dvc-calendar-sun {
+	color: red;
+}
+
+.dvc-calendar-sat {
+	color:blue;
+}
+
+.dvc-calendar-day {
+	color:black;
+}
+
+.dvc-calendar-check {
+	width:100%;
+	height:100%;
+}
+
+.dvc-calendar-check-o-1 {
+	background:url('images/month_Ybox_bullet.png') no-repeat;	
+	background-position-x: 50%;
+	background-position-y: 60%; 
+}
+
+.dvc-calendar-check-o-2 {
+	background:url('images/month_Ybox_bullet_2.png') no-repeat;	
+	background-position-x: 50%;
+	background-position-y: 60%; 
+}
+
+.dvc-calendar-check-o-3 {
+	background:url('images/month_Ybox_bullet_3.png') no-repeat;	
+	background-position-x: 50%;
+	background-position-y: 60%; 
+}
+
+.dvc-calendar-text {
+	position:relative;width:100%;
+}
